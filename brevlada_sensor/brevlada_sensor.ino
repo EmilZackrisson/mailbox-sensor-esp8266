@@ -65,4 +65,5 @@ void loop() {
     client.publish("brevlada/state", "off");
     delay(500);
     digitalWrite(power, LOW); // Turn ESP off
+    delay(1000*60);
 }
